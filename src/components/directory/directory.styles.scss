@@ -1,0 +1,12 @@
+.directory-bookmarks {
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+}
+
+/* Media Query: Large Smartphone (Vertical) */
+@media screen and (max-width: 600px) {
+    .container {
+      flex: column;
+    }
+  }

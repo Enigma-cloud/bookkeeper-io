@@ -1,0 +1,38 @@
+.bookmark-item {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: var(--border-radius);
+    padding: 20px;
+    margin: 10px;
+
+    &:hover {
+        background: rgba(0, 0, 0, 0.6);
+    }
+}
+
+.link-info {
+    margin-top: 20px;
+    margin-right: 20px;
+
+    img {
+        height: 20px;
+        width: 20px;
+        vertical-align: sub;
+        margin-right: 5px;
+    }
+
+    a {
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        &:link, &:visited {
+            color: white;
+            text-decoration: none;
+        }
+
+        &:hover, &:active {
+            text-decoration: underline;
+        }
+    }
+}
