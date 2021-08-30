@@ -7,14 +7,14 @@ import Directory from '../../components/directory/directory.component';
 const HomePage = () => {
     const [bookmarks, setBookmarks] = useLocalStorage('bookmarks', {});
     
-    useEffect(() => {
-        setBookmarks(
-            {
-            'https://www.google.com': {name: 'Google', 
-                                        url: 'https://www.google.com'}
-            }
-        )
-    }, [setBookmarks]);
+    // useEffect(() => {
+    //     setBookmarks(
+    //         {
+    //         'https://www.google.com': {name: 'Google', 
+    //                                     url: 'https://www.google.com'}
+    //         }
+    //     )
+    // }, [setBookmarks]);
 
     return (
         <div className="homepage">
