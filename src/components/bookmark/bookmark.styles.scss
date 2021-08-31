@@ -8,16 +8,15 @@
     &:hover {
         background: rgba(0, 0, 0, 0.6);
     }
+}
 
-    .icon-container {
-        width: 10px;
-        height: 10px;
-    }
+.bookmark-options {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .link-info {
-    margin-top: 20px;
-    margin-right: 20px;
+    margin-top: 10px;
 
     img {
         height: 20px;
